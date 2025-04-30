@@ -87,7 +87,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+
 </body>
 </html>
 
@@ -255,5 +255,8 @@ form button:hover {
 </style>
 
 <script>
-
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    alert("Thank you for contacting us, we will get back to you soon!");
+});
 </script>
